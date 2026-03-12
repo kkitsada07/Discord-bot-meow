@@ -4,7 +4,8 @@ import GeminiChat from './components/GeminiChat';
 
 // Mock Guild ID for now, in a real app this would come from Discord OAuth
 const DEFAULT_GUILD_ID = '1095003913465385080';
-const API_BASE = 'http://localhost:5000/api';
+// Use environment variable for API base or fallback to localhost
+const API_BASE = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
 
 function App() {
     const [activeTab, setActiveTab] = useState('dashboard');
