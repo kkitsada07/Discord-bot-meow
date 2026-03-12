@@ -1,0 +1,12 @@
+{
+  "name": "discord-bot-dashboard-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "frontend-install": "npm install --prefix discord-bot-dashboard/frontend",
+    "frontend-build": "npm run build --prefix discord-bot-dashboard/frontend",
+    "backend-install": "npm install --prefix discord-bot-dashboard/backend",
+    "install-all": "npm run frontend-install && npm run backend-install",
+    "build": "npm run frontend-build"
+  }
+}
