@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+
+# Database
+backend/database.sqlite
+
+# Build/Dist
+dist/
+build/
+
+# System Files
+.DS_Store
+Thumbs.db
