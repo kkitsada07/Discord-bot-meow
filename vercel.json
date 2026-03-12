@@ -1,0 +1,5 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "discord-bot-dashboard/frontend/dist",
+  "framework": "vite"
+}
