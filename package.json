@@ -5,8 +5,7 @@
   "scripts": {
     "frontend-install": "npm install --prefix discord-bot-dashboard/frontend",
     "frontend-build": "npm run build --prefix discord-bot-dashboard/frontend",
-    "backend-install": "npm install --prefix discord-bot-dashboard/backend",
-    "install-all": "npm run frontend-install && npm run backend-install",
-    "build": "npm run frontend-build"
+    "install-all": "npm run frontend-install",
+    "build": "npm run frontend-install && npm run frontend-build"
   }
 }
